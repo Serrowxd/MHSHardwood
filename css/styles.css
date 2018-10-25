@@ -47,10 +47,12 @@ div {
   cursor: pointer;
 }
 .mainbody {
+  flex-direction: column;
   border: 3px solid black;
   width: 100%;
   height: 70vh;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   background-color: tan;
 }
 .daily_banner {
@@ -70,4 +72,22 @@ div {
 }
 .daily_banner p {
   font-size: 2rem;
+}
+.daily_item {
+  flex-direction: column;
+  padding: 1rem;
+}
+.daily_item .title {
+  justify-content: space-between;
+}
+.daily_item .content {
+  align-items: center;
+}
+.daily_item .content p {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.daily_item .content img {
+  height: 10rem;
+  width: auto;
 }
