@@ -1,0 +1,48 @@
+div {
+  display: flex;
+}
+.header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header_title {
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.header .header_title h1 {
+  font-size: 4.5rem;
+}
+.header .contact_header {
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+}
+.header .contact_header .contact_content {
+  justify-content: space-around;
+}
+.navigation {
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 13%;
+  margin-top: 2%;
+  padding-right: 1%;
+  height: 65vh;
+}
+.navigation p {
+  font-size: 1.2rem;
+  border: 1px solid black;
+  padding: 1rem;
+  transition: 0.2s;
+}
+.navigation p:hover {
+  background-color: tan;
+  cursor: pointer;
+}
+.mainbody {
+  border: 3px solid black;
+  width: 100%;
+  padding: 1rem;
+}

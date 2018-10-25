@@ -1,0 +1,76 @@
+// ***
+// Global
+// ***
+
+div {
+  display: flex;
+}
+
+.row {
+}
+
+// ***
+// Header
+// ***
+.header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .header_title {
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+
+    h1 {
+      font-size: 4.5rem;
+    }
+  }
+
+  .contact_header {
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+
+    .contact_content {
+      justify-content: space-around;
+    }
+  }
+}
+
+// ***
+// Navigation
+// ***
+
+.navigation {
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 13%;
+  margin-top: 2%;
+  padding-right: 1%;
+
+  height: 65vh;
+
+  p {
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: tan;
+      cursor: pointer;
+    }
+  }
+}
+
+// ***
+// MainBody
+// ***
+
+.mainbody {
+  border: 3px solid black;
+  width: 100%;
+  padding: 1rem;
+}
