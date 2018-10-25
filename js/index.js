@@ -46,4 +46,9 @@ function hideAll() {
   $('#seven').hide();
 }
 
+$(document).ready(function() {
+  hideAll();
+  $('#one').show();
+});
+
 //
