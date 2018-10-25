@@ -1,3 +1,6 @@
+html {
+  background-image: url(../assets/exotic.jpg);
+}
 div {
   display: flex;
 }
@@ -45,6 +48,8 @@ div {
   border: 3px solid black;
   width: 100%;
   height: 70vh;
+  overflow: auto;
+  background-color: tan;
 }
 .daily_banner {
   width: 100%;
