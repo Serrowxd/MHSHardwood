@@ -1,8 +1,13 @@
 html {
   background-image: url(../assets/exotic.jpg);
+  font-family: 'Roboto', sans-serif;
 }
 div {
   display: flex;
+}
+.column {
+  flex-direction: column;
+  justify-content: center;
 }
 .header {
   flex-direction: row;
@@ -16,14 +21,32 @@ div {
 }
 .header .header_title h1 {
   font-size: 4.5rem;
+  margin-bottom: 0;
+}
+.header .header_title p {
+  font-size: 1.3rem;
+  text-align: center;
 }
 .header .contact_header {
   flex-direction: column;
   text-align: center;
   width: 20%;
+  font-size: 1.2rem;
+}
+.header .contact_header h2 {
+  margin-bottom: 0;
+}
+.header .contact_header p {
+  margin-bottom: 0;
 }
 .header .contact_header .contact_content {
   justify-content: space-around;
+}
+.header .contact_header .contact_content p {
+  transition: 0.5s;
+}
+.header .contact_header .contact_content p:hover {
+  cursor: pointer;
 }
 .navigation {
   flex-direction: column;
